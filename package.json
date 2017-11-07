@@ -1,0 +1,15 @@
+{
+  "name": "yarnyarnyarn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SICOH001 <SICONG.X.HE.-ND@disney.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "rendertron": "^1.1.0"
+  }
+}
