@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node -e \"if(process.env.npm_execpath.indexOf('yarn') === -1) throw new Error('You must use Yarn to install, not NPM')\""
   },
   "author": "SICOH001 <SICONG.X.HE.-ND@disney.com>",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
+    "moment": "^2.19.1",
     "rendertron": "^1.1.0"
   }
 }
