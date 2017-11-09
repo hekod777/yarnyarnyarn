@@ -10,7 +10,7 @@
   "author": "SICOH001 <SICONG.X.HE.-ND@disney.com>",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2",
+    "express": "4.0.0",
     "moment": "^2.19.1",
     "rendertron": "^1.1.0"
   }
